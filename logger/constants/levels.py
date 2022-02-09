@@ -1,8 +1,9 @@
 from enum import IntEnum
 
 class Levels(IntEnum):
-    DEBUG = 10
-    INFO = 20
-    WARNING = 30
-    ERROR = 40
-    CRITICAL = 50
+    DEBUG       = 0
+    INFO        = 1
+    INTERESTING = 2
+    WARNING     = 3
+    ERROR       = 4
+    CRITICAL    = 5
