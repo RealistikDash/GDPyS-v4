@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class Stats:
     """An object representing the current statistics of a user."""
@@ -17,7 +18,7 @@ class Stats:
     # Icons
     primary_colour: int
     secondary_colour: int
-    cube: int # Perhaps maybe make these objects with a nicer api rather than simple numbers.
+    cube: int  # Perhaps maybe make these objects with a nicer api rather than simple numbers.
     ship: int
     ufo: int
     wave: int
@@ -26,4 +27,4 @@ class Stats:
     spider: int
     explosion: int
     glow: bool
-    display_mode: int # Which of the "forms" should be displayed as the user's main one.
+    display_mode: int  # Which of the "forms" should be displayed as the user's main one.
