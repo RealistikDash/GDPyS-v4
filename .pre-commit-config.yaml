@@ -1,12 +1,12 @@
 repos:
     # Black PEP8 formatter
 -   repo: https://github.com/psf/black
-    rev: 22.1.0
+    rev: 22.6.0
     hooks:
     -   id: black
     # Simple QOL default precommit hooks.
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.3.0
     hooks:
     -   id: check-ast
     -   id: end-of-file-fixer
